@@ -13,9 +13,7 @@ export async function generateStaticParams() {
   const categories = getCategories();
 
   return categories.map((category) => ({
-    params: {
-      category: slugify(category),
-    },
+    category: slugify(category),
   }));
 }
 
@@ -46,7 +44,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     </div>
   );
 }
-
 
 // import { getProductsByCategory, getCategories, slugify, deslugify } from "@/lib/products"
 // import { ProductCard } from "@/components/product-card"
