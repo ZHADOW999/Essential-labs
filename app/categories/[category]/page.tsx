@@ -1,6 +1,3 @@
-// @ts-nocheck
-
-
 import { getProductsByCategory, getCategories, slugify, deslugify } from "@/lib/products";
 import { ProductCard } from "@/components/product-card";
 import { notFound } from "next/navigation";
