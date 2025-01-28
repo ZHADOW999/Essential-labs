@@ -3,6 +3,7 @@ import { ProductCard } from "../components/product-card"
 // import { Badge } from "../components/ui/badge"
 import { Button } from "../components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
   const products = getProducts()
@@ -23,10 +24,12 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute inset-0 z-0 opacity-20">
-          <img
+          <Image
             src="/placeholder.svg?height=600&width=1200&text=Laboratory+Background"
             alt="Laboratory background"
             className="w-full h-full object-cover"
+            width={100}
+            height={100}
           />
         </div>
       </section>

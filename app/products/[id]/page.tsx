@@ -2,6 +2,7 @@ import { getProduct } from "../../../lib/products"
 import { notFound } from "next/navigation"
 import { Badge } from "../../../components/ui/badge"
 import { ContactForm } from "../../../components/contact-form"
+import Image from "next/image"
 
 export default function ProductPage({ params }: { params: { id: string } }) {
   const product = getProduct(params.id)
@@ -14,10 +15,12 @@ export default function ProductPage({ params }: { params: { id: string } }) {
     <div className="container mx-auto px-4 py-8">
       <div className="grid md:grid-cols-2 gap-8">
         <div className="aspect-square relative">
-          <img
+          <Image
             src={product.image || "/placeholder.svg"}
             alt={product.name}
             className="object-cover w-full h-full rounded-lg"
+            width={100}
+            height={100}
           />
         </div>
         <div className="space-y-6">

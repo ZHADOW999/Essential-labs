@@ -3,6 +3,7 @@ import { Card, CardContent, CardFooter } from "../components/ui/card"
 import { Button } from "../components/ui/button"
 import { Badge } from "../components/ui/badge"
 import type { Product } from "../lib/products"
+import Image from "next/image"
 
 interface ProductCardProps {
   product: Product
@@ -13,10 +14,12 @@ export function ProductCard({ product }: ProductCardProps) {
     <Card className="overflow-hidden transition-all hover:shadow-lg">
       <CardContent className="p-0">
         <div className="aspect-square relative">
-          <img
+          <Image
             src={product.image || "/placeholder.svg"}
             alt={product.name}
             className="object-cover w-full h-full transition-transform hover:scale-105"
+            width={100}
+            height={100}
           />
           <Badge className="absolute top-2 right-2 bg-primary text-primary-foreground">{product.category}</Badge>
         </div>

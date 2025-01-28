@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Card, CardContent, CardFooter } from "../components/ui/card"
 import { Button } from "../components/ui/button"
 import type { Product } from "../lib/types"
+import Image from "next/image"
 
 interface ProductGridProps {
   products: Product[]
@@ -14,7 +15,10 @@ export function ProductGrid({ products }: ProductGridProps) {
         <Card key={product.id}>
           <CardContent className="p-4">
             <div className="aspect-square relative mb-4">
-              <img src={product.image || "/placeholder.svg"} alt={product.name} className="object-cover rounded-lg" />
+              <Image src={product.image || "/placeholder.svg"} alt={product.name} className="object-cover rounded-lg" 
+                          width={100}
+                          height={100}
+              />
             </div>
             <h3 className="font-semibold mb-2">{product.name}</h3>
             <p className="text-sm text-muted-foreground">{product.description}</p>
