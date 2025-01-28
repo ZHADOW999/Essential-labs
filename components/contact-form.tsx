@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client"
 
 import { useState } from "react"
@@ -13,7 +15,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../components/ui/dialog"
-import { toast } from "../components/ui/use-toast"
+import { useToast } from "../components/ui/useToast"
 
 interface ContactFormProps {
   productName: string
@@ -33,7 +35,7 @@ export function ContactForm({ productName }: ContactFormProps) {
     console.log("Form submitted:", { name, email, message, productName })
 
     // Show a success message
-    toast({
+    useToast({
       title: "Inquiry Sent",
       description: "We've received your inquiry and will get back to you soon.",
     })

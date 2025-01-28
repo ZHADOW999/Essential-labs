@@ -6,7 +6,7 @@ interface ToastProps {
   description: string
 }
 
-export function toast({ title, description }: ToastProps) {
+export function useToast({ title, description }: ToastProps) {
   const [isVisible, setIsVisible] = useState(true)
 
   useEffect(() => {

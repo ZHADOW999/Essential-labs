@@ -1,6 +1,6 @@
 import { getProducts, getCategories, slugify } from "../lib/products"
 import { ProductCard } from "../components/product-card"
-import { Badge } from "../components/ui/badge"
+// import { Badge } from "../components/ui/badge"
 import { Button } from "../components/ui/button"
 import Link from "next/link"
 

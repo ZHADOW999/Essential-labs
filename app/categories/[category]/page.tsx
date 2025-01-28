@@ -15,10 +15,10 @@ export function generateStaticParams() {
   }))
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
+export default async function  CategoryPage ({ params }: CategoryPageProps) {
   console.log("Rendering CategoryPage with params:", params)
 
-  const { category } = params
+  const { category } = await params
   const decodedCategory = deslugify(category)
   console.log("Decoded category:", decodedCategory)
 
