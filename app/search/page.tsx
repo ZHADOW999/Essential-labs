@@ -1,3 +1,5 @@
+"use client"
+
 import { Suspense, useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
 import { searchProducts, getCategories, type Product } from "@/lib/products"
