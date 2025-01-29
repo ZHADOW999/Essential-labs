@@ -4,8 +4,11 @@ import { Badge } from "../../../components/ui/badge"
 import { ContactForm } from "../../../components/contact-form"
 import Image from "next/image"
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = getProduct(params.id)
+
+
+export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
+  const product = getProduct(resolvedParams.id)
 
   if (!product) {
     notFound()
