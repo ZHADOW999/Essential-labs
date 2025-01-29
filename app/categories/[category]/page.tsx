@@ -3,9 +3,9 @@ import { ProductCard } from "@/components/product-card";
 import { notFound } from "next/navigation";
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>
 }
 
 // ✅ Correct the return format of `generateStaticParams`
