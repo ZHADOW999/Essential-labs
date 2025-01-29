@@ -8,12 +8,12 @@ interface CategoryPageProps {
   };
 }
 
-// Fix: Ensure `generateStaticParams` is async and resolves correctly
+// ✅ Correct the return format of `generateStaticParams`
 export async function generateStaticParams() {
-  const categories = await getCategories(); // Ensure `getCategories` is awaited
+  const categories = getCategories(); // Ensure `getCategories` is awaited if async
 
   return categories.map((category) => ({
-    category: slugify(category), // Return `{ category: slugifiedCategory }`, not `{ params: { category } }`
+    params: { category: slugify(category) }, // Wrap in `params`
   }));
 }
 
@@ -24,7 +24,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const decodedCategory = deslugify(category);
   console.log("Decoded category:", decodedCategory);
 
-  const products = await getProductsByCategory(decodedCategory); // Fix: Await if async
+  const products =  getProductsByCategory(decodedCategory); // Await async data fetching
 
   if (!products || products.length === 0) {
     console.log("No products found for category:", decodedCategory);
@@ -44,6 +44,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     </div>
   );
 }
+
 
 
 // import { getProductsByCategory, getCategories, slugify, deslugify } from "@/lib/products"
