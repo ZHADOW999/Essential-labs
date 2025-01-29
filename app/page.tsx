@@ -58,7 +58,7 @@ export default function Home() {
       <section className="container mx-auto px-4">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl font-bold">Featured Products</h2>
-          <Link href="/products" className="text-sm text-primary hover:underline">
+          <Link href="/products" className="text-sm text-primary hover:underline ">
             View All Products
           </Link>
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-        <div className="mt-8 text-center">
+        <div className="mt-8 text-center mb-5">
           <Button asChild variant="outline">
             <Link href="/products">View All Products</Link>
           </Button>
