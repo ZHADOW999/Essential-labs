@@ -5,7 +5,7 @@
     "description": "High-precision digital microscope with 1000x magnification",
     "price": 1299.99,
     "category": "Microscopes",
-    "image": "/placeholder.svg?height=400&width=400&text=Digital+Microscope",
+    "image": "/images/products/Handheld_Digital_Microscope_Pro.jpg",
     "specifications": ["1000x magnification", "Digital display", "USB connectivity", "LED illumination"]
   },
   {

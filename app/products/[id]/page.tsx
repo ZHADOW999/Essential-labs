@@ -22,8 +22,9 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             src={product.image || "/placeholder.svg"}
             alt={product.name}
             className="object-cover w-full h-full rounded-lg"
-            width={100}
-            height={100}
+            width={0}
+            height={0}
+            sizes="100vw"
           />
         </div>
         <div className="space-y-6">

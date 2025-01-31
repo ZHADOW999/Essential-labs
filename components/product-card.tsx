@@ -18,8 +18,9 @@ export function ProductCard({ product }: ProductCardProps) {
             src={product.image || "/placeholder.svg"}
             alt={product.name}
             className="object-cover w-full h-full transition-transform hover:scale-105"
-            width={100}
-            height={100}
+            width={0}
+            height={0}
+            sizes="100vw"
           />
           <Badge className="absolute top-2 right-2 bg-primary text-primary-foreground">{product.category}</Badge>
         </div>
