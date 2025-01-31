@@ -14,7 +14,7 @@
     "description": "Professional grade centrifuge for research laboratories",
     "price": 2499.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Laboratory+Centrifuge",
+    "image": "/images/products/LaboratoryCentrifuge.png",
     "specifications": ["Maximum speed: 15000 RPM", "Digital control panel", "Timer function", "Safety lock system"]
   },
   {
@@ -23,7 +23,7 @@
     "description": "High-precision analytical balance with 0.1mg readability",
     "price": 3999.99,
     "category": "Measurement",
-    "image": "/placeholder.svg?height=400&width=400&text=Analytical+Balance",
+    "image": "/images/products/AdventurerAnalytical.jpg",
     "specifications": ["0.1mg readability", "Internal calibration", "Touch screen display", "GLP/GMP compliant"]
   },
   {
@@ -32,7 +32,7 @@
     "description": "Advanced PCR thermal cycler for molecular biology research",
     "price": 5999.99,
     "category": "Molecular Biology",
-    "image": "/placeholder.svg?height=400&width=400&text=PCR+Thermal+Cycler",
+    "image": "/images/products/PCR Thermal Cycler.jpg",
     "specifications": ["96-well capacity", "Touchscreen interface", "Gradient PCR capability", "USB connectivity"]
   },
   {
@@ -41,7 +41,7 @@
     "description": "UV-Vis spectrophotometer for quantitative analysis",
     "price": 4499.99,
     "category": "Spectroscopy",
-    "image": "/placeholder.svg?height=400&width=400&text=Spectrophotometer",
+    "image": "/images/products/Spectrophotometer.jpg",
     "specifications": [
       "Wavelength range: 190-1100 nm",
       "Dual beam optics",
@@ -55,7 +55,7 @@
     "description": "High-performance fume hood for safe handling of chemicals",
     "price": 3799.99,
     "category": "Safety Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Fume+Hood",
+    "image": "/images/products/fume hood.jpg",
     "specifications": ["Airflow monitor", "LED lighting", "Tempered glass sash", "Corrosion-resistant work surface"]
   },
   {
@@ -64,7 +64,7 @@
     "description": "Large capacity autoclave for efficient sterilization",
     "price": 6999.99,
     "category": "Sterilization",
-    "image": "/placeholder.svg?height=400&width=400&text=Autoclave+Sterilizer",
+    "image": "/images/products/Autoclave-Sterilizer.png",
     "specifications": ["50L capacity", "Programmable cycles", "Automatic door locking", "Built-in printer"]
   },
   {
@@ -73,7 +73,7 @@
     "description": "Versatile microplate reader for various assay types",
     "price": 8999.99,
     "category": "Molecular Biology",
-    "image": "/placeholder.svg?height=400&width=400&text=Microplate+Reader",
+    "image": "/images/products/MICROPLATE_READER.jpg",
     "specifications": [
       "Absorbance, fluorescence, and luminescence detection",
       "96 and 384-well plate compatibility",
@@ -87,7 +87,7 @@
     "description": "Energy-efficient ultra-low temperature freezer",
     "price": 11999.99,
     "category": "Storage",
-    "image": "/placeholder.svg?height=400&width=400&text=Ultra-Low+Freezer",
+    "image": "/images/products/ultra-low-freezer.jpg",
     "specifications": ["-86°C temperature range", "700L capacity", "Touchscreen controller", "Backup battery system"]
   },
   {
@@ -96,7 +96,7 @@
     "description": "Efficient rotary evaporator for solvent removal",
     "price": 4299.99,
     "category": "Separation",
-    "image": "/placeholder.svg?height=400&width=400&text=Rotary+Evaporator",
+    "image": "/images/products/Rotary Evaporator.jpg",
     "specifications": ["Digital water bath", "Motorized lift", "Vacuum controller", "Glassware set included"]
   },
   {
@@ -105,7 +105,7 @@
     "description": "Class II A2 biological safety cabinet for sterile work",
     "price": 9999.99,
     "category": "Safety Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Biological+Safety+Cabinet",
+    "image": "/images/products/biological-safety-cabinet.png",
     "specifications": ["HEPA filtration", "UV sterilization", "10° sloped front", "Energy-efficient DC motor"]
   },
   {
@@ -114,7 +114,7 @@
     "description": "Complete gel electrophoresis system for DNA/RNA analysis",
     "price": 1299.99,
     "category": "Molecular Biology",
-    "image": "/placeholder.svg?height=400&width=400&text=Gel+Electrophoresis+System",
+    "image": "/images/products/GelElectrophoresisSystem.png",
     "specifications": [
       "Horizontal gel system",
       "Power supply included",
@@ -128,7 +128,7 @@
     "description": "High-performance liquid chromatography system",
     "price": 24999.99,
     "category": "Chromatography",
-    "image": "/placeholder.svg?height=400&width=400&text=HPLC+System",
+    "image": "/images/products/High-Performance-Liquid-Chromatography.jpg",
     "specifications": ["Quaternary pump", "Autosampler", "Column oven", "Diode array detector"]
   },
   {
@@ -137,7 +137,7 @@
     "description": "Precise CO2 incubator for cell culture",
     "price": 5999.99,
     "category": "Cell Culture",
-    "image": "/placeholder.svg?height=400&width=400&text=CO2+Incubator",
+    "image": "/images/products/CO2 Incubator.png",
     "specifications": ["170L capacity", "IR CO2 sensor", "Humidity control", "Contamination control package"]
   },
   {
@@ -146,7 +146,7 @@
     "description": "High-speed microcentrifuge for small volume samples",
     "price": 2499.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Microcentrifuge",
+    "image": "/images/products/Microcentrifuge.jpg",
     "specifications": ["Maximum speed: 30,000 RPM", "24-place rotor", "Brushless motor", "Automatic rotor recognition"]
   },
   {
@@ -155,7 +155,7 @@
     "description": "Automated microplate washer for ELISA and cell-based assays",
     "price": 6499.99,
     "category": "Automation",
-    "image": "/placeholder.svg?height=400&width=400&text=Plate+Washer",
+    "image": "/images/products/Plate Washer.jpg",
     "specifications": [
       "96 and 384-well compatibility",
       "8-channel manifold",
@@ -169,7 +169,7 @@
     "description": "Advanced fluorescence microscope for live cell imaging",
     "price": 15999.99,
     "category": "Microscopes",
-    "image": "/placeholder.svg?height=400&width=400&text=Fluorescence+Microscope",
+    "image": "/images/products/Fluorescence Microscope.png",
     "specifications": ["LED illumination", "5 fluorescence channels", "Motorized stage", "High-resolution camera"]
   },
   {
@@ -178,7 +178,7 @@
     "description": "Benchtop freeze dryer for sample preservation",
     "price": 8999.99,
     "category": "Sample Preparation",
-    "image": "/placeholder.svg?height=400&width=400&text=Freeze+Dryer",
+    "image": "/images/products/freezer dryer.jpg",
     "specifications": [
       "4L ice condenser capacity",
       "-55°C condenser temperature",
@@ -192,7 +192,7 @@
     "description": "Comprehensive water purification system for laboratory use",
     "price": 4999.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Water+Purification+System",
+    "image": "/images/products/Water Purification System.jpg",
     "specifications": ["Type I ultrapure water", "10L/hour flow rate", "TOC monitor", "UV sterilization"]
   },
   {
@@ -201,7 +201,7 @@
     "description": "Fast and accurate automated cell counting system",
     "price": 3999.99,
     "category": "Cell Culture",
-    "image": "/placeholder.svg?height=400&width=400&text=Automated+Cell+Counter",
+    "image": "/images/products/cellometer-ascend-with-consumables.jpg",
     "specifications": [
       "Brightfield and fluorescence options",
       "7-inch touchscreen",
@@ -215,7 +215,7 @@
     "description": "Oil-free vacuum pump for laboratory applications",
     "price": 899.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Vacuum+Pump",
+    "image": "/images/products/Vacuum Pump.jpg",
     "specifications": ["Ultimate vacuum: 0.3 mbar", "Flow rate: 20 L/min", "Low noise operation", "Compact design"]
   },
   {
@@ -224,7 +224,7 @@
     "description": "Temperature-controlled shaking incubator for cell culture and microbiology",
     "price": 3299.99,
     "category": "Cell Culture",
-    "image": "/placeholder.svg?height=400&width=400&text=Shaking+Incubator",
+    "image": "/images/products/Shaking Incubator.jpg",
     "specifications": [
       "Temperature range: 5-80°C",
       "Speed range: 30-300 rpm",
@@ -238,7 +238,7 @@
     "description": "Automated microplate sealer for high-throughput labs",
     "price": 5999.99,
     "category": "Automation",
-    "image": "/placeholder.svg?height=400&width=400&text=Plate+Sealer",
+    "image": "/images/products/Plate Sealer.jpg",
     "specifications": [
       "Sealing time: 2-10 seconds",
       "Multiple seal types",
@@ -252,7 +252,7 @@
     "description": "Advanced gel documentation system with multi-channel imaging",
     "price": 7999.99,
     "category": "Imaging",
-    "image": "/placeholder.svg?height=400&width=400&text=Gel+Imaging+System",
+    "image": "/images/products/Gel Imaging System.jpg",
     "specifications": [
       "6.3 MP CCD camera",
       "UV, blue, and white light",
@@ -266,7 +266,7 @@
     "description": "Multi-purpose tube rotator for mixing and hybridization",
     "price": 399.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Tube+Rotator",
+    "image": "/images/products/Tube Rotator.webp",
     "specifications": [
       "Speed range: 10-70 rpm",
       "Timer function",
@@ -280,7 +280,7 @@
     "description": "High-precision benchtop pH meter for accurate measurements",
     "price": 799.99,
     "category": "Measurement",
-    "image": "/placeholder.svg?height=400&width=400&text=Benchtop+pH+Meter",
+    "image": "/images/products/Benchtop pH Meter.jpg",
     "specifications": ["pH range: -2.000 to 20.000", "Temperature compensation", "Data logging", "GLP compliant"]
   },
   {
@@ -289,7 +289,7 @@
     "description": "Microvolume spectrophotometer for nucleic acid and protein quantification",
     "price": 9999.99,
     "category": "Spectroscopy",
-    "image": "/placeholder.svg?height=400&width=400&text=Microvolume+Spectrophotometer",
+    "image": "/images/products/Microvolume Spectrophotometer.png",
     "specifications": [
       "Sample size: 0.5-2 µL",
       "Full spectrum scanning",
@@ -303,7 +303,7 @@
     "description": "Multi-mode microplate reader for various assay types",
     "price": 22999.99,
     "category": "Molecular Biology",
-    "image": "/placeholder.svg?height=400&width=400&text=Plate+Reader",
+    "image": "/images/products/Plate Reader.jpg",
     "specifications": [
       "Absorbance, fluorescence, luminescence modes",
       "Temperature control",
@@ -317,7 +317,7 @@
     "description": "Variable speed vortex mixer for efficient sample mixing",
     "price": 299.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Vortex+Mixer",
+    "image": "/images/products/Vortex Mixer.jpg",
     "specifications": ["Speed range: 0-3000 rpm", "Touch and continuous modes", "Compact design", "Quiet operation"]
   },
   {
@@ -326,7 +326,7 @@
     "description": "Set of high-precision single-channel pipettes",
     "price": 999.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Pipette+Set",
+    "image": "/images/products/Pipette Set.jpg",
     "specifications": [
       "Volumes: 0.1-2 µL, 2-20 µL, 20-200 µL, 100-1000 µL",
       "Autoclavable",
@@ -340,7 +340,7 @@
     "description": "High-performance thermal cycler for PCR applications",
     "price": 4999.99,
     "category": "Molecular Biology",
-    "image": "/placeholder.svg?height=400&width=400&text=Thermal+Cycler",
+    "image": "/images/products/Thermal Cycler.jpg",
     "specifications": ["96-well block", "Heated lid", "Touchscreen interface", "Gradient PCR capability"]
   },
   {
@@ -349,7 +349,7 @@
     "description": "Programmable magnetic stirrer with heating function",
     "price": 599.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Magnetic+Stirrer",
+    "image": "/images/products/agnetic Stirrer.jpg",
     "specifications": [
       "Speed range: 100-1500 rpm",
       "Temperature range: RT to 340°C",
@@ -363,7 +363,7 @@
     "description": "Automated microplate dispenser for high-throughput screening",
     "price": 7999.99,
     "category": "Automation",
-    "image": "/placeholder.svg?height=400&width=400&text=Microplate+Dispenser",
+    "image": "/images/products/Microplate Dispenser.jpg",
     "specifications": [
       "8-channel dispensing",
       "Volume range: 0.5-300 µL",
@@ -377,7 +377,7 @@
     "description": "Versatile benchtop centrifuge for various applications",
     "price": 3499.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Benchtop+Centrifuge",
+    "image": "/images/products/Benchtop Centrifuge.jpg",
     "specifications": ["Maximum speed: 17,000 rpm", "Capacity: 4 x 100 mL", "Brushless motor", "Programmable"]
   },
   {
@@ -386,7 +386,7 @@
     "description": "High-voltage power supply for electrophoresis applications",
     "price": 999.99,
     "category": "Molecular Biology",
-    "image": "/placeholder.svg?height=400&width=400&text=Electrophoresis+Power+Supply",
+    "image": "/images/products/Electrophoresis Power Supply.jpg",
     "specifications": [
       "Output range: 10-300V, 4-400mA",
       "Constant voltage or current",
@@ -400,7 +400,7 @@
     "description": "Forced air convection oven for drying and heating applications",
     "price": 2499.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Laboratory+Oven",
+    "image": "/images/products/Laboratory Oven.webp",
     "specifications": [
       "Capacity: 150L",
       "Temperature range: 50-300°C",
@@ -414,7 +414,7 @@
     "description": "High-speed microplate shaker for mixing and incubation",
     "price": 1299.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Microplate+Shaker",
+    "image": "/images/products/Microplate Shaker.jpg",
     "specifications": ["Speed range: 100-1200 rpm", "Touch operation", "Timer function", "Multiple plate capacity"]
   },
   {
@@ -423,7 +423,7 @@
     "description": "Gentle tube roller for blood samples and viscous liquids",
     "price": 299.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Tube+Roller",
+    "image": "/images/products/Tube Roller.jpg",
     "specifications": ["Speed range: 10-70 rpm", "6 roller design", "Quiet operation", "Compact footprint"]
   },
   {
@@ -432,7 +432,7 @@
     "description": "Highly sensitive spectrophotometer for small sample volumes",
     "price": 11999.99,
     "category": "Spectroscopy",
-    "image": "/placeholder.svg?height=400&width=400&text=Microvolume+UV-Vis+Spectrophotometer",
+    "image": "/images/products/Microvolume UV-Vis Spectrophotometer.jpg",
     "specifications": ["Sample size: 0.5-2 µL", "Full spectrum scanning", "Xenon flash lamp", "Touchscreen interface"]
   },
   {
@@ -441,7 +441,7 @@
     "description": "Digital ultrasonic cleaner for laboratory glassware",
     "price": 599.99,
     "category": "Lab Equipment",
-    "image": "/placeholder.svg?height=400&width=400&text=Ultrasonic+Cleaner",
+    "image": "/images/products/Ultrasonic Cleaner.jpg",
     "specifications": ["Tank capacity: 3L", "Ultrasonic frequency: 40 kHz", "Digital timer", "Stainless steel tank"]
   }
 ]
