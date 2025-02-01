@@ -85,13 +85,13 @@ export function Footer() {
                 </a>
               </li> */}
               <li >
-                <a href="tel:+16156592737" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 hover:underline">
+                <a href="tel:+16156592737" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 ">
                   <Phone size={16} /> (615) 659-2737
                 </a>
               </li>
 
               <li >
-                <a href="tel:+17866324122" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 hover:underline mt-1">
+                <a href="tel:+17866324122" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
                   <Phone size={16} /> (786) 632-4122
                 </a>
               </li>
