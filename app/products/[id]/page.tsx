@@ -8,11 +8,11 @@ import { Metadata } from "next"
 
 
 interface ProductProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export async function generateMetadata({ params }: ProductProps): Promise<Metadata> {
-  const resolvedParams =  params;
+  const resolvedParams =  await params;
   const product = getProduct(resolvedParams.id)
 
   return {
