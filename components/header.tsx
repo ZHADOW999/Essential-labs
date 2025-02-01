@@ -57,7 +57,7 @@ export function Header() {
             <div className="md:hidden flex items-center gap-4">
             <div> 
               <p className="sr-only">search</p>
-              <Button variant="outline" size="icon" onClick={()=>setIsSearchOpen(prev => !prev)}><Search className=" h-6 w-6 text-muted-foreground" /></Button>
+              <Button variant="outline" size="icon" onClick={()=>setIsSearchOpen(prev => !prev)}><Search className=" h-6 w-6" /></Button>
               </div>
               <ModeToggle />
               <DropdownMenu>
