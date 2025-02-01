@@ -1,6 +1,14 @@
 import { getProducts } from "../../lib/products"
 import { ProductCard } from "../../components/product-card"
+import { Metadata } from "next"
 
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Essential Labs | Products",
+    description: "Essential Labs is a collection of tools and resources for developers",
+  }
+}
 export default function ProductsPage() {
   const products = getProducts()
 

@@ -1,6 +1,14 @@
 import { getCategories, slugify } from "../../lib/products"
 import Link from "next/link"
 import { Card,CardContent } from "../../components/ui/card"
+import { Metadata } from "next"
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Essential Labs | Categories",
+    description: "Explore all product categories",
+  }
+}
 
 export default function CategoriesPage() {
   const categories = getCategories()

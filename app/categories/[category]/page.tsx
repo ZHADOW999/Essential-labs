@@ -1,6 +1,20 @@
 import { getProductsByCategory, getCategories, slugify, deslugify } from "@/lib/products";
 import { ProductCard } from "@/components/product-card";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
+
+
+
+
+export async function generateMetadata({params}:CategoryPageProps):Promise<Metadata> {
+  const { category } = await params;
+  const decodedCategory = deslugify(category);
+  console.log("Decoded category:", decodedCategory);
+  return {
+    title: `Essential Labs | Category - ${decodedCategory}`,
+    description: `View all products in the ${decodedCategory} category`
+  };
+}
 
 interface CategoryPageProps {
   params: Promise<{
@@ -16,6 +30,8 @@ export async function generateStaticParams() {
     params: { category: slugify(category) }, // Wrap in `params`
   }));
 }
+
+
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   console.log("Rendering CategoryPage with params:", params);

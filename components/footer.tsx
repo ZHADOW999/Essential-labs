@@ -99,7 +99,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          © 2023 LabEquip. All rights reserved.
+          &copy;{new Date().getFullYear()} Essential Labs. All rights reserved.
         </div>
       </div>
     </footer>

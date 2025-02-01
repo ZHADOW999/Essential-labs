@@ -5,6 +5,14 @@ import { Button } from "../components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
 import heroImg from "@/public/images/hero-image.jpg"
+import { Metadata } from "next"
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Essential Labs | Home",
+    
+  }
+}
 
 export default function Home() {
   const products = getProducts()
