@@ -20,6 +20,7 @@ export function Header() {
       router.push(`/search?q=${encodeURIComponent(search.trim())}`)
     }
   }
+  
 
   return (
  <header className="h-auto relative">

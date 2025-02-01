@@ -69,7 +69,7 @@ export default function Home() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-        <div className="mt-8 text-center mb-5">
+        <div className="mt-8 text-center mb-8">
           <Button asChild variant="outline">
             <Link href="/products">View All Products</Link>
           </Button>

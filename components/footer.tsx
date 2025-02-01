@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Phone } from "lucide-react"
 
 export function Footer() {
   return (
@@ -68,7 +69,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-3">Connect</h3>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Twitter
                 </a>
@@ -81,6 +82,17 @@ export function Footer() {
               <li>
                 <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   LinkedIn
+                </a>
+              </li> */}
+              <li >
+                <a href="tel:+16156592737" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 hover:underline">
+                  <Phone size={16} /> (615) 659-2737
+                </a>
+              </li>
+
+              <li >
+                <a href="tel:+17866324122" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 hover:underline mt-1">
+                  <Phone size={16} /> (786) 632-4122
                 </a>
               </li>
             </ul>
