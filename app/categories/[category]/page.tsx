@@ -9,7 +9,7 @@ import { Breadcrumbs, type BreadcrumbItem } from "@/components/breadcrumbs"
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { category } = await params;
-  const decodedCategory = deslugify(category)
+  const decodedCategory = deslugify(category);
   const products = getProductsByCategory(decodedCategory)
 
   if (products.length === 0) {
@@ -25,6 +25,8 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
     openGraph: {
       title: `${categoryName} - LabEquip`,
+      type: "website",
+      url: `https://www.essentiallabs.com/categories/${category}`,
       description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
     },
     twitter: {
