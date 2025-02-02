@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     openGraph: {
       title: `${categoryName} - LabEquip`,
       type: "website",
-      url: `https://www.essentiallabs.com/categories/${category}`,
+      url: `https://essential-labs.vercel.app/categories/${category}`,
       description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
     },
     twitter: {
