@@ -34,8 +34,9 @@ export function Header() {
             <form onSubmit={handleSearch} className="flex-1 max-w-xl hidden md:block">
               <div className="relative">
                 
-                <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+                <label htmlFor="search" className=" left-2 top-2.5 h-5 w-5 absolute"><Search className=" absolute h-4 w-4 text-muted-foreground" /></label>
                 <Input
+                  id="search"
                   placeholder="Search equipment..."
                   className="pl-8 w-full "
                   value={search}
@@ -57,7 +58,7 @@ export function Header() {
             <div className="md:hidden flex items-center gap-4">
             <div> 
               <p className="sr-only">search</p>
-              <Button variant="outline" size="icon" onClick={()=>setIsSearchOpen(prev => !prev)}><Search className=" h-6 w-6" /></Button>
+              <Button role="button" aria-label="search" variant="outline" size="icon" onClick={()=>setIsSearchOpen(prev => !prev)}><Search className=" h-6 w-6" /></Button>
               </div>
               <ModeToggle />
               <DropdownMenu>
