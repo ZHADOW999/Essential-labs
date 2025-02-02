@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "Essential Labs",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "https://essential-labs.vercel.app/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Essential Labs"
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     site: "@essentiallabs",
     title: "Essential Labs",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
-    images: "/images/og-image.png",
+    images: "https://essential-labs.vercel.app/images/og-image.png",
     creator: "@essentiallabs",
   },
   robots: {
