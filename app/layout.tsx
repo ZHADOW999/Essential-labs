@@ -71,7 +71,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-    
+      <Head>
+      <meta name="google-site-verification" content="-UZMALg3TLNF79sAc-UTTRBVt2pmMTeBop-3WMzh9V0" />
+      </Head>
       <body className={cn(inter.className, "min-h-screen bg-background flex flex-col")}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
