@@ -1,6 +1,7 @@
 import { getProducts } from "../../lib/products"
 import { ProductCard } from "../../components/product-card"
 import { Metadata } from "next"
+import { Breadcrumbs, BreadcrumbItem } from "@/components/breadcrumbs"
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -24,11 +25,16 @@ export default function ProductsPage() {
     {} as Record<string, typeof products>,
   )
 
+  const breadcrumbs: BreadcrumbItem[] = [
+    { label: "Products", href: "/products" },
+  ]
+
   // Sort categories alphabetically
   const sortedCategories = Object.keys(productsByCategory).sort()
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Breadcrumbs items={breadcrumbs} />
       <h1 className="text-3xl font-bold mb-8">All Products</h1>
       {sortedCategories.map((category) => (
         <div key={category} className="mb-12">

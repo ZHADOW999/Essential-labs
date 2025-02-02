@@ -5,6 +5,8 @@ import { ContactForm } from "../../../components/contact-form"
 import Image from "next/image"
 // import { Metadata } from "../../../hooks/useMetadata"
 import { Metadata } from "next"
+import { Breadcrumbs, type BreadcrumbItem } from "@/components/breadcrumbs"
+
 
 
 interface ProductProps {
@@ -15,14 +17,35 @@ export async function generateMetadata({ params }: ProductProps): Promise<Metada
   const resolvedParams =  await params;
   const product = getProduct(resolvedParams.id)
 
+  if (!product) {
+    return {
+      title: "Product Not Found",
+    }
+  }
+
   return {
     title: `Essential Labs | ${product?.name}`,
     description: product?.description,
     openGraph: {
       title: product?.name,
       description: product?.description,
-      url: `https://www.essentiallabs.com/products/${product?.id}`,
-      images: [{ url: product?.image || "/placeholder.svg" }],
+      type: "website",
+      url: `https://www.essentiallabs.com/products/${product.id}`,
+      images: [
+        {
+          url: product?.image || "/placeholder.svg",
+          width: 800,
+          height: 600,
+          alt: product?.name,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: product.name,
+      description: product.description,
+      images: [product.image || "/placeholder.svg"],
     },
   };
 }
@@ -35,6 +58,11 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
     notFound()
   }
 
+  const breadcrumbItems: BreadcrumbItem[] = [
+    { label: "Products", href: "/products" },
+    { label: product.category, href: `/categories/${product.category.toLowerCase()}` },
+    { label: product.name, href: `/products/${product.id}` },
+  ]
   return (
 <>
       {/* <Metadata
@@ -45,6 +73,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
       /> */}
 
       <div className="container mx-auto px-4 py-8">
+      <Breadcrumbs items={breadcrumbItems} />
         <div className="grid md:grid-cols-2 gap-8">
           <div className="aspect-square relative">
             <Image

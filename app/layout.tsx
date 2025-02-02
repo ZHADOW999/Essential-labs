@@ -14,15 +14,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Essential Labs",
   description: "Essential Labs offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
-  icons: {
-    icon: "/favicon.ico",
-    apple: [{ url: "/apple-touch-icon.png" }]
-  },
+  
   keywords: ["laboratory equipment", "research supplies", "scientific instruments", "lab tools", "professional-grade equipment"],
   authors: [{ name: "Essential Labs" }],
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#ffffff",
-  robots: "index, follow",
   publisher: "Essential Labs",
   applicationName: "Essential Labs",
 
@@ -31,6 +27,7 @@ export const metadata: Metadata = {
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
     url: "https://www.essentiallabs.com",
     type: "website",
+    siteName: "Essential Labs",
     images: [
       {
         url: "https://www.essentiallabs.com/images/og-image.jpg",
@@ -45,8 +42,26 @@ export const metadata: Metadata = {
     site: "@essentiallabs",
     title: "Essential Labs",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
-    images: "https://www.essentiallabs.com/images/og-image.jpg"
-  }
+    images: "https://www.essentiallabs.com/images/og-image.jpg",
+    creator: "@essentiallabs",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 }
 
 export default function RootLayout({

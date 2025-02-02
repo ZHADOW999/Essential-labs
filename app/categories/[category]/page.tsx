@@ -2,19 +2,39 @@ import { getProductsByCategory, getCategories, slugify, deslugify } from "@/lib/
 import { ProductCard } from "@/components/product-card";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import { Breadcrumbs, type BreadcrumbItem } from "@/components/breadcrumbs"
 
 
 
 
-export async function generateMetadata({params}:CategoryPageProps):Promise<Metadata> {
+export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { category } = await params;
-  const decodedCategory = deslugify(category);
-  console.log("Decoded category:", decodedCategory);
+  const decodedCategory = deslugify(category)
+  const products = getProductsByCategory(decodedCategory)
+
+  if (products.length === 0) {
+    return {
+      title: "Category Not Found",
+    }
+  }
+
+  const categoryName = products[0].category
+
   return {
-    title: `Essential Labs | Category - ${decodedCategory}`,
-    description: `View all products in the ${decodedCategory} category`
-  };
+    title: `Essential Labs | ${categoryName}`,
+    description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
+    openGraph: {
+      title: `${categoryName} - LabEquip`,
+      description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${categoryName} - LabEquip`,
+      description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
+    },
+  }
 }
+
 
 interface CategoryPageProps {
   params: Promise<{
@@ -49,8 +69,14 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   const categoryName = products[0].category;
 
+  const breadcrumbItems: BreadcrumbItem[] = [
+    { label: "Categories", href: "/categories" },
+    { label: categoryName, href: `/categories/${category}` },
+  ]
+
   return (
     <div className="container mx-auto px-4 py-8">
+      <Breadcrumbs items={breadcrumbItems} />
       <h1 className="text-3xl font-bold mb-6 capitalize">{categoryName}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
