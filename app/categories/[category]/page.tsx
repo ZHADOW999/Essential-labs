@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     },
     twitter: {
       card: "summary_large_image",
-      title: `${categoryName} - LabEquip`,
+      title: `Essential Labs - ${categoryName}`,
       description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
     },
   }
