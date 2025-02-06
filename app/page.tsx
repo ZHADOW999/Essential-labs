@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/placeholder.svg?height=600&width=1200&text=Laboratory+Background"
+            src="/images/hero-image.jpg"
             alt="Laboratory background"
             className="w-full h-full object-cover"
           />
