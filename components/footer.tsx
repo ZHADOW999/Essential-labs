@@ -48,7 +48,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Terms of Service
+                  Terms & Coditions
                 </Link>
               </li>
               <li>
