@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "Essential Labs",
     images: [
       {
-        url: "https://essential-labs.vercel.app/images/og-image.jpg",
+        url: "https://essential-labs.vercel.app/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Essential Labs"
