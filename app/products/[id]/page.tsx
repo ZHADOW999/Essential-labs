@@ -1,7 +1,7 @@
 import { getProduct } from "../../../lib/products"
 import { notFound } from "next/navigation"
 import { Badge } from "../../../components/ui/badge"
-import { ContactForm } from "../../../components/contact-form"
+import { ContactForm } from "../../../components/contact-form-product"
 import Image from "next/image"
 // import { Metadata } from "../../../hooks/useMetadata"
 import { Metadata } from "next"

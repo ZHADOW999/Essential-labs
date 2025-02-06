@@ -57,6 +57,42 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-8">Meet Our Co-founder</h2>
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <img
+              src="/placeholder.svg?height=400&width=400&text=Deonna+Purrazzo"
+              alt="Deonna Purrazzo, Co-founder of Essential Lab Inc"
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+          <div>
+            <p className="mb-4">
+              "My name is Deonna Purrazzo, and I am the co-founder of Essential Lab Inc, a leading distributor of
+              premium laboratory equipment kits. With a passion for science and a commitment to excellence, we provide
+              high-quality, reliable, and affordable laboratory solutions to meet the diverse needs of educational
+              institutions, research facilities, and hobbyists.
+            </p>
+            <p className="mb-4">
+              It's been 6 years since that first laboratory equipment kits fair project, when I first felt that thrill
+              of selling authentic laboratory equipment kits to some rural areas in Africa and Asia. It is my wish that
+              we can help people that live in rural areas across the globe of every age and in every country to have
+              authentic laboratory equipment kits.
+            </p>
+            <p className="mb-4">
+              At Essential Lab Inc, we understand the importance of precision and accuracy in scientific endeavors.
+              That's why we meticulously curate our kits to include only the best tools and instruments, ensuring that
+              our customers can conduct their experiments with confidence and ease.
+            </p>
+            <p>
+              Thank you for considering Essential Lab Inc as your trusted partner in scientific exploration. We look
+              forward to the possibility of working together."
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-secondary py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Our Commitment</h2>
@@ -122,7 +158,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-primary text-primary-foreground py-16 mt-16">
+
+      <section className="bg-primary text-primary-foreground py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Join the Scientific Revolution</h2>
           <p className="mb-8 max-w-2xl mx-auto">
