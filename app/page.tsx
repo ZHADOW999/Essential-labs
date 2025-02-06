@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div>
             <p className="mb-4">
-              "My name is Deonna Purrazzo, and I am the co-founder of Essential Lab Inc, a leading distributor of
+              My name is Deonna Purrazzo, and I am the co-founder of Essential Lab Inc, a leading distributor of
               premium laboratory equipment kits. With a passion for science and a commitment to excellence, we provide
               high-quality, reliable, and affordable laboratory solutions to meet the diverse needs of educational
               institutions, research facilities, and hobbyists.
@@ -87,7 +87,7 @@ export default function Home() {
             </p>
             <p>
               Thank you for considering Essential Lab Inc as your trusted partner in scientific exploration. We look
-              forward to the possibility of working together."
+              forward to the possibility of working together.
             </p>
           </div>
         </div>
