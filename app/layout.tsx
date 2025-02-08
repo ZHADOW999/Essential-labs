@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   // openGraph: {
   //   images: '/og-image.png',
   // },
-  title: "Essential Labs",
-  description: "Essential Labs offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
+  title: "Essential Laboratory Inc",
+  description: "Essential Laboratort Inc offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
   
   keywords: ["laboratory equipment", "research supplies", "scientific instruments", "lab tools", "professional-grade equipment"],
   authors: [{ name: "Essential Labs" }],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   applicationName: "Essential Labs",
 
   openGraph: {
-    title: "Essential Labs",
+    title: "Essential Laboratory Inc",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
     url: "https://essential-labs.vercel.app/",
     type: "website",
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://essential-labs.vercel.app/images/og-image.png",
-        width: 1200,
-        height: 630,
+        // width: 1200,
+        // height: 630,
         alt: "Essential Labs"
       }
     ]

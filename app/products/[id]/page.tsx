@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: ProductProps): Promise<Metada
   }
 
   return {
-    title: `Essential Labs | ${product?.name}`,
+    title:  ` ${product?.name} | Essential Laboratory Inc.`,
     description: product?.description,
     openGraph: {
       title: product?.name,

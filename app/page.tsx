@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto px-4">
+      <section id='story' className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8">About Us</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
@@ -62,7 +62,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src="/placeholder.svg?height=400&width=400&text=Deonna+Purrazzo"
+              src="/images/fonder.jpg"
               alt="Deonna Purrazzo, Co-founder of Essential Lab Inc"
               className="w-full h-auto rounded-lg shadow-lg"
             />
@@ -93,10 +93,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-secondary py-16">
+      <section id="commitment" className="bg-secondary py-16 ">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8">Our Commitment</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <h2  className="text-3xl font-bold mb-8">Our Commitment</h2>
+          {/* <div className="grid md:grid-cols-2 gap-8"> */}
+          <div className="">
             <div>
               <p className="mb-4">
                 Over nearly 6 years in business, our close dealer relationships have allowed us to stay in touch with
@@ -114,13 +115,13 @@ export default function Home() {
                 forward to supporting your business goals for decades to come.
               </p>
             </div>
-            <div>
+            {/* <div>
               <img
                 src="/placeholder.svg?height=400&width=600&text=Commitment+Image"
                 alt="Our Commitment"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -151,7 +152,7 @@ export default function Home() {
           </div>
           <div>
             <img
-              src="/placeholder.svg?height=400&width=600&text=Laboratory+Kit+Image"
+              src="/images/hero-image.jpg"
               alt="Premium Laboratory Equipment Kit"
               className="w-full h-auto rounded-lg shadow-lg"
             />

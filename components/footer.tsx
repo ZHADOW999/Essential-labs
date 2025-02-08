@@ -9,12 +9,12 @@ export function Footer() {
             <h3 className="font-semibold mb-3">About</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/#story" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Our Story
                 </Link>
               </li>
               <li>
-                <Link href="/" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/#commitment" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Our Commitment
                 </Link>
               </li>
@@ -48,7 +48,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Terms & Coditions
+                  Terms and Coditions
                 </Link>
               </li>
               <li>
@@ -65,7 +65,7 @@ export function Footer() {
             <h3 className="font-semibold mb-3">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a target="_blank" href="https://wa.me/17866324122" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   WhatsApp
                 </a>
               </li>

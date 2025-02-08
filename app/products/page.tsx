@@ -6,7 +6,7 @@ import { Breadcrumbs, BreadcrumbItem } from "@/components/breadcrumbs"
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Essential Labs | Products",
+    title:  "Products | Essential Laboratory Inc.",
     description: "Essential Labs is a collection of tools and resources for developers",
   }
 }

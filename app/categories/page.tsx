@@ -5,7 +5,7 @@ import { Metadata } from "next"
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Essential Labs | Categories",
+    title: " Categories | Essential Laboratory Inc.",
     description: "Explore all product categories",
   }
 }
