@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <div>
             <img
-              src="/placeholder.svg?height=400&width=600&text=Company+Image"
+              src="/images/6900-Tpc-Dr-Orlando-FL-Primary-Photo-1-LargeHighDefinition.jpg"
               alt="Essential Laboratory, Inc."
               className="w-full h-auto rounded-lg shadow-lg"
             />
