@@ -19,7 +19,7 @@ export const viewport: Viewport = {
   // interactiveWidget: 'resizes-visual',
 }
 export const metadata: Metadata = {
-  metadataBase: new URL('https://essential-labs.vercel.app/'),
+  metadataBase: new URL('https://www.essentiallabinc.com/'),
   alternates: {
     canonical: '/',
     languages: {
@@ -43,12 +43,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Essential Laboratory Inc",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
-    url: "https://essential-labs.vercel.app/",
+    url: "https://www.essentiallabinc.com/",
     type: "website",
     siteName: "Essential Labs",
     images: [
       {
-        url: "https://essential-labs.vercel.app/images/og-image.png",
+        url: "https://www.essentiallabinc.com/images/og-image.png",
         // width: 1200,
         // height: 630,
         alt: "Essential Labs"
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     site: "@essentiallabs",
     title: "Essential Labs",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
-    images: "https://essential-labs.vercel.app/images/og-image.png",
+    images: "https://www.essentiallabinc.com/images/og-image.png",
     creator: "@essentiallabs",
   },
   robots: {

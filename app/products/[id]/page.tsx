@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: ProductProps): Promise<Metada
       title: product?.name,
       description: product?.description,
       type: "website",
-      url: `https://essential-labs.vercel.app/products/${product.id}`,
+      url: `https://www.essentiallabinc.com/products/${product.id}`,
       images: [
         {
           url: product?.image || "/placeholder.svg",
