@@ -98,7 +98,7 @@ export default function Home() {
           <h2  className="text-3xl font-bold mb-8">Our Commitment</h2>
           {/* <div className="grid md:grid-cols-2 gap-8"> */}
           <div className="">
-            <div>
+            <div className="w-full lg:w-2/3">
               <p className="mb-4">
                 Over nearly 6 years in business, our close dealer relationships have allowed us to stay in touch with
                 how customers' priorities evolve, and to evolve along with them. In today's fast-paced world, your
