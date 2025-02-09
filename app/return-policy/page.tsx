@@ -22,7 +22,7 @@ export default function ReturnPolicyPage() {
           Return Form
         </Link>{" "}
         as the first step in your return process. For questions regarding a return, please contact us via phone
-        (786-632-4122) or email at essentiallabinc@groupmail.com. We will be delighted to assist you!
+        (786-632-4122) or email at deonna@essentiallabinc.com. We will be delighted to assist you!
       </p>
       <ul className="list-disc list-inside mb-4 space-y-2">
         <li>Items, including all components, must be returned in new condition and within 60 days.</li>
