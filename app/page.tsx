@@ -62,7 +62,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src="/images/fonder.jpg"
+              src="/images/fonder (2).jpg"
               alt="Deonna Purrazzo, Co-founder of Essential Lab Inc"
               className="w-full h-auto rounded-lg shadow-lg"
             />
