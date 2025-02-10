@@ -2,7 +2,7 @@ import { getProducts, getCategories, slugify } from "@/lib/products"
 import { NextResponse } from "next/server"
 
 export async function GET() {
-  const baseUrl = "https://www.essentiallabinc.com/" // Replace with your actual domain
+  const baseUrl = "https://www.essentiallabinc.com" // Replace with your actual domain
 
   const products = getProducts()
   const categories = getCategories()
