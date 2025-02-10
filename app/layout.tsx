@@ -8,7 +8,7 @@ import Head from "next/head"
 import type { Viewport } from 'next'
 import { Metadata } from "next"
 import "./globals.css"
-
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] })
 
 export const viewport: Viewport = {
@@ -95,7 +95,9 @@ export default function RootLayout({
       <body className={cn(inter.className, "min-h-screen bg-background flex flex-col")}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">{children}
+            <SpeedInsights />
+          </main>
           <Footer />
         </ThemeProvider>
       </body>
