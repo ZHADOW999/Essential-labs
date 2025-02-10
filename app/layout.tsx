@@ -49,8 +49,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.essentiallabinc.com/images/og-image.png",
-        // width: 1200,
-        // height: 630,
+        width: 1200,
+        height: 630,
         alt: "Essential Labs"
       }
     ]
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@essentiallabs",
-    title: "Essential Labs",
+    title: "Essential Laboratory Inc",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
     images: "https://www.essentiallabinc.com/images/og-image.png",
     creator: "@essentiallabs",
