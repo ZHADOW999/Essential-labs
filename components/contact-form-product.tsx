@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState,useRef } from "react"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
@@ -23,6 +23,7 @@ export function ContactForm({ productName }: ContactFormProps) {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [loading, setLoading] = useState(false)
   const [toastData, setToastData] = useState<{ title: string; description: string } | null>(null)
+  const formRef = useRef<HTMLFormElement | null>(null)
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -38,13 +39,12 @@ export function ContactForm({ productName }: ContactFormProps) {
       })
 
       if (response.ok) {
-        // event.currentTarget.reset()
-        setIsDialogOpen(false)
         setToastData({
           title: "Inquiry Sent",
           description: "We've received your inquiry and will get back to you soon.",
         })
-
+        setIsDialogOpen(false)
+        formRef.current?.reset()
       } else {
         setToastData({
           title: "Submission Failed",
@@ -77,7 +77,7 @@ export function ContactForm({ productName }: ContactFormProps) {
               Send us a message about <strong>{productName}</strong>. We'll get back to you as soon as possible.
             </DialogDescription>
           </DialogHeader>
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="product">Product</Label>
               <Input id="product" name="product" value={productName} readOnly className="bg-gray-100 text-black cursor-not-allowed" />
