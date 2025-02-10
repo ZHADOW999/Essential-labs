@@ -9,6 +9,9 @@ import type { Viewport } from 'next'
 import { Metadata } from "next"
 import "./globals.css"
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/react"
+
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const viewport: Viewport = {
@@ -100,6 +103,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </ThemeProvider>
+        <Analytics/>
         <SpeedInsights />
       </body>
     </html>
