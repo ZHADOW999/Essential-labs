@@ -168,6 +168,7 @@ export default function Home() {
               sizes="100vw"
               width={0}
               height={0}
+              priority={true}
             />
           </div>
         </div>
