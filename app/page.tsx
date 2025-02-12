@@ -22,7 +22,9 @@ export default function Home() {
             src="/images/hero-image.jpg"
             alt="Laboratory background"
             className="w-full h-full object-cover"
-            fill
+            width={0}
+            height={0}
+            sizes="100vw"
           />
         </div>
       </section>
@@ -54,7 +56,9 @@ export default function Home() {
               src="/images/6900-Tpc-Dr-Orlando-FL-Primary-Photo-1-LargeHighDefinition.jpg"
               alt="Essential Laboratory, Inc."
               className="w-full h-auto rounded-lg shadow-lg"
-              fill
+              width={0}
+              height={0}
+              sizes="100vw"
             />
           </div>
         </div>
@@ -67,8 +71,10 @@ export default function Home() {
             <Image
               src="/images/fonder (2).jpg"
               alt="Deonna Purrazzo, Co-founder of Essential Lab Inc"
-              className="w-full h-auto rounded-lg shadow-lg"
-              fill
+              className="w-full h-auto  rounded-lg shadow-lg"
+              width={0}
+              height={0}
+              sizes="100vw"
             />
           </div>
           <div>
@@ -159,7 +165,9 @@ export default function Home() {
               src="/images/hero-image.jpg"
               alt="Premium Laboratory Equipment Kit"
               className="w-full h-auto rounded-lg shadow-lg"
-              fill
+              sizes="100vw"
+              width={0}
+              height={0}
             />
           </div>
         </div>
