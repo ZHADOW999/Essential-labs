@@ -78,9 +78,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/public/favicon.ico",
-    shortcut: "/public/favicon.ico",
-    apple: "/public/favicon.ico",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   // manifest: "/site.webmanifest",
 }
@@ -93,6 +93,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="apple-touch-icon" href="/favicon.ico" />
       <meta name="google-site-verification" content="UehJ1Ac-8shShH575IG8LwyF1qPkP7D4t85suTBsmKs" />
       </Head>
       <body className={cn(inter.className, "min-h-screen bg-background flex flex-col")}>
