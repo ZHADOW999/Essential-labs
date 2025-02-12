@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute inset-0 z-0 opacity-20">
-          <img
+          <Image
             src="/images/hero-image.jpg"
             alt="Laboratory background"
             className="w-full h-full object-cover"
+            fill
           />
         </div>
       </section>
@@ -48,10 +50,11 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <img
+            <Image
               src="/images/6900-Tpc-Dr-Orlando-FL-Primary-Photo-1-LargeHighDefinition.jpg"
               alt="Essential Laboratory, Inc."
               className="w-full h-auto rounded-lg shadow-lg"
+              fill
             />
           </div>
         </div>
@@ -61,10 +64,11 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8">Meet Our Co-founder</h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <img
+            <Image
               src="/images/fonder (2).jpg"
               alt="Deonna Purrazzo, Co-founder of Essential Lab Inc"
               className="w-full h-auto rounded-lg shadow-lg"
+              fill
             />
           </div>
           <div>
@@ -151,10 +155,11 @@ export default function Home() {
             </Button> */}
           </div>
           <div>
-            <img
+            <Image
               src="/images/hero-image.jpg"
               alt="Premium Laboratory Equipment Kit"
               className="w-full h-auto rounded-lg shadow-lg"
+              fill
             />
           </div>
         </div>
