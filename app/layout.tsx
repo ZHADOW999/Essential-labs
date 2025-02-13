@@ -93,9 +93,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-      <link rel="icon" href="/favicon.ico" sizes="32x32" />
+      <link rel="icon" href="/favicon.ico" sizes="48x48" />
       <link rel="apple-touch-icon" href="/favicon.ico" />
-      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="48x48"/>
       <meta name="google-site-verification" content="UehJ1Ac-8shShH575IG8LwyF1qPkP7D4t85suTBsmKs" />
       </Head>
       <body className={cn(inter.className, "min-h-screen bg-background flex flex-col")}>
