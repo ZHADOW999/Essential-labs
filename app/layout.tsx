@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   description: "Essential Laboratory Inc offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
   
   keywords: ["laboratory equipment", "research supplies", "scientific instruments", "lab tools", "professional-grade equipment","essential lab inc",      "essential laboratory inc","essential lab","essential laboratory"],
-  authors: [{ name: "Essential Labs" }],
+  authors: [{ name: "Essential Laboratory Inc" }],
   // viewport: "width=device-width, initial-scale=1.0",
   // themeColor: "#ffffff",
-  publisher: "Essential Labs",
-  applicationName: "Essential Labs",
+  publisher: "Essential Laboratory Inc",
+  applicationName: "Essential Laboratory Inc",
 
   openGraph: {
     
@@ -49,23 +49,23 @@ export const metadata: Metadata = {
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
     url: "https://www.essentiallabinc.com/",
     type: "website",
-    siteName: "Essential Labs",
+    siteName: "Essential Laboratory Inc",
     images: [
       {
         url: "https://www.essentiallabinc.com/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Essential Labs"
+        alt: "Essential Laboratory Inc"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    site: "@essentiallabs",
+    site: "@essentiallabinc",
     title: "Essential Laboratory Inc",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
     images: "https://www.essentiallabinc.com/images/og-image.png",
-    creator: "@essentiallabs",
+    creator: "@essentiallabinc",
   },
   robots: {
     index: true,
@@ -94,7 +94,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-      <meta property="og:site_name" content="Essential Laboratory Inc"></meta>
       <link rel="icon" href="/favicon.ico" sizes="48x48" />
       <link rel="apple-touch-icon" href="/favicon.ico" />
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="48x48"/>
