@@ -44,6 +44,7 @@ export const metadata: Metadata = {
   applicationName: "Essential Labs",
 
   openGraph: {
+    
     title: "Essential Laboratory Inc",
     description: "Explore our extensive range of professional-grade laboratory equipment and supplies.",
     url: "https://www.essentiallabinc.com/",
@@ -93,6 +94,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
+      <meta property="og:site_name" content="Essential Laboratory Inc"></meta>
       <link rel="icon" href="/favicon.ico" sizes="48x48" />
       <link rel="apple-touch-icon" href="/favicon.ico" />
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="48x48"/>
