@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   //   images: '/og-image.png',
   // },
   title: "Essential Laboratory Inc",
-  description: "Essential Laboratort Inc offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
+  description: "Essential Laboratory Inc offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
   
   keywords: ["laboratory equipment", "research supplies", "scientific instruments", "lab tools", "professional-grade equipment","essential lab inc",      "essential laboratory inc","essential lab","essential laboratory"],
   authors: [{ name: "Essential Labs" }],
