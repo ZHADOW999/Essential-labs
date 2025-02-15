@@ -1,12 +1,16 @@
 import { getProduct } from "../../../lib/products"
 import { notFound } from "next/navigation"
 import { Badge } from "../../../components/ui/badge"
-import { ContactForm } from "../../../components/contact-form-product"
+// import { ContactForm } from "../../../components/contact-form-product"
 import Image from "next/image"
 // import { Metadata } from "../../../hooks/useMetadata"
 import { Metadata } from "next"
 import { Breadcrumbs, type BreadcrumbItem } from "@/components/breadcrumbs"
+import dynamic from "next/dynamic"
 
+const ContactForm = dynamic(() => import("../../../components/contact-form-product").then(mod => mod.ContactForm), {
+  loading: () => null,
+})
 
 
 interface ProductProps {
