@@ -5,7 +5,12 @@ import { Breadcrumbs, BreadcrumbItem } from "@/components/breadcrumbs"
 
 
 export async function generateMetadata(): Promise<Metadata> {
+
   return {
+    metadataBase: new URL('https://www.essentiallabinc.com/'),
+    alternates:{
+      canonical: '/products',
+    },
     title:  "Products | Essential Laboratory Inc.",
     description: "Essential Labs is a collection of tools and resources for developers",
     keywords: "Essential Labs, Products, Tools, Resources",

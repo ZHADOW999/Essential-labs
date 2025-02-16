@@ -21,6 +21,10 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const categoryName = products[0].category
 
   return {
+    metadataBase: new URL('https://www.essentiallabinc.com/'),
+    alternates: {
+      canonical: `/categories/${category}`,
+    },
     title: `${categoryName} | Essential Laboratory Inc. `,
     description: `Explore our range of ${categoryName?.toLowerCase()} laboratory equipment and supplies.`,
     openGraph: {

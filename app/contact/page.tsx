@@ -3,6 +3,14 @@ import { Metadata } from "next"
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.essentiallabinc.com/'),
+  alternates:{
+    canonical: '/contact',
+    // languages:{
+    //   'en-US': '/en-US/contact',
+    //   'de-DE': '/de-DE/contact',
+    //}
+  },
   title: "Contact Us | Essential Laboratory Inc",
   description: "Get in touch with us",
   keywords: "Essential Labs, Contact, Support",

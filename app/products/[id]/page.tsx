@@ -28,6 +28,10 @@ export async function generateMetadata({ params }: ProductProps): Promise<Metada
   }
 
   return {
+    metadataBase: new URL('https://www.essentiallabinc.com/'),
+    alternates: {
+      canonical: `/products/${product.id}`,
+    },
     title:  ` ${product?.name} | Essential Laboratory Inc.`,
     description: product?.description,
     openGraph: {

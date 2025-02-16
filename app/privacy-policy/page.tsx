@@ -1,6 +1,10 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.essentiallabinc.com/'),
+  alternates:{
+    canonical:'/privacy-policy',
+  },
   title: "Privacy Policy | Essential Laboratory Inc",
   description: "Read our privacy policy to understand how we collect, use, and protect your personal information.",
   openGraph: {

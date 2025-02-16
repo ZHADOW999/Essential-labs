@@ -25,21 +25,17 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.essentiallabinc.com/'),
   alternates: {
     canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-      'de-DE': '/de-DE',
-    },
+    // languages: {
+    //   'en-US': '/en-US',
+    //   'de-DE': '/de-DE',
+    // },
   },
-  // openGraph: {
-  //   images: '/og-image.png',
-  // },
+
   title: "Essential Laboratory Inc",
   description: "Essential Laboratory Inc offers a comprehensive range of professional-grade laboratory equipment and supplies for research and industrial applications. Discover our high-quality products designed to meet the needs of modern laboratories.",
   
   keywords: ["laboratory equipment", "research supplies", "scientific instruments", "lab tools", "professional-grade equipment","essential lab inc",  "essential laboratory inc","essential lab","essential laboratory"],
   authors: [{ name: "Essential Laboratory Inc" }],
-  // viewport: "width=device-width, initial-scale=1.0",
-  // themeColor: "#ffffff",
   publisher: "Essential Laboratory Inc",
   applicationName: "Essential Laboratory Inc",
 

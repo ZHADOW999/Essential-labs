@@ -1,6 +1,10 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.essentiallabinc.com/'),
+  alternates:{
+    canonical: '/shipping',
+  },
   title: "Shipping Information | Essential Laboratory Inc",
   description: "Learn about our shipping policies and international shipping options.",
   keywords: "Essential Labs, Shipping, International Shipping, Delivery",

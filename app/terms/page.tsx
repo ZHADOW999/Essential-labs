@@ -1,6 +1,10 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.essentiallabinc.com/'),
+  alternates:{
+    canonical: '/terms',
+  },
   title: "Terms and Conditions | Essential Laboratory Inc",
   description: "Read our terms and conditions for using Essential Laboratory Inc's website and services.",
   keywords: "Essential Labs, Terms, Conditions",

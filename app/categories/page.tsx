@@ -5,6 +5,14 @@ import { Metadata } from "next"
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
+    metadataBase: new URL('https://www.essentiallabinc.com/'),
+    alternates:{
+      canonical: '/categories',
+      // languages:{
+      //   'en-US': '/en-US/categories',
+      //   'de-DE': '/de-DE/categories',
+      // }
+    },
     title: " Categories | Essential Laboratory Inc.",
     description: "Explore all product categories",
     keywords: "Essential Labs, Categories, Products, Tools, Resources",

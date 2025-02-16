@@ -2,6 +2,11 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.essentiallabinc.com/'),
+  alternates:
+    {
+      canonical: '/return-policy',
+    },
   title: "Return & Replacement Policy | Essential Laboratory Inc",
   description: "Learn about our return and replacement policies for laboratory equipment and supplies.",
   keywords: "Essential Labs, Return Policy, Replacement Policy, Refunds",
