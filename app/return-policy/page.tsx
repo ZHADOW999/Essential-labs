@@ -4,6 +4,22 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Return & Replacement Policy | Essential Laboratory Inc",
   description: "Learn about our return and replacement policies for laboratory equipment and supplies.",
+  keywords: "Essential Labs, Return Policy, Replacement Policy, Refunds",
+  openGraph:{
+    type: "website",
+    title: "Return & Replacement Policy | Essential Laboratory Inc",
+    description: "Learn about our return and replacement policies for laboratory equipment and supplies.",
+    url: "https://essentiallabinc.com/return-policy",
+    siteName: "Essential Laboratory Inc",
+    images: [
+      {
+        url: "https://essentiallabinc.com/images/essential-lab-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Essential Laboratory Inc"
+      }
+    ]
+  }
 }
 
 export default function ReturnPolicyPage() {

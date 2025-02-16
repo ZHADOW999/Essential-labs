@@ -8,7 +8,25 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title:  "Products | Essential Laboratory Inc.",
     description: "Essential Labs is a collection of tools and resources for developers",
+    keywords: "Essential Labs, Products, Tools, Resources",
+
+    openGraph: {
+      title: "Products | Essential Laboratory Inc.",
+      description: "Essential Labs is a collection of tools and resources for developers",
+      type: "website",
+      url: "https://www.essentiallabinc.com/products",
+      siteName: "Essential Laboratory Inc.",
+      images: [
+        {
+          url: "https://www.essentiallabinc.com/images/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "Essential Laboratory Inc."
+        }
+      ]
+    },
   }
+  
 }
 export default function ProductsPage() {
   const products = getProducts()

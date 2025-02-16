@@ -3,6 +3,22 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Terms and Conditions | Essential Laboratory Inc",
   description: "Read our terms and conditions for using Essential Laboratory Inc's website and services.",
+  keywords: "Essential Labs, Terms, Conditions",
+  openGraph: {
+    title: "Terms and Conditions | Essential Laboratory Inc",
+    description: "Read our terms and conditions for using Essential Laboratory Inc's website and services.",
+    type: "website",
+    url: "https://essentiallabinc.com/terms",
+    siteName: "Essential Laboratory Inc",
+    images:[
+      {
+        url: "https://www.essentiallabinc.com/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Essential Laboratory Inc"
+      }
+    ]
+  }
 }
 
 export default function TermsPage() {

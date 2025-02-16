@@ -7,6 +7,22 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: " Categories | Essential Laboratory Inc.",
     description: "Explore all product categories",
+    keywords: "Essential Labs, Categories, Products, Tools, Resources",
+    openGraph:{
+      title: "Categories | Essential Laboratory Inc.",
+      description: "Explore all product categories",
+      type: "website",
+      url: "https://essentiallabinc.com/categories",
+      siteName: "Essential Laboratory Inc.",
+      images: [
+        {
+          url: "https://www.essentiallabinc.com/images/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "Essential Laboratory Inc."
+        }
+      ]
+    }
   }
 }
 

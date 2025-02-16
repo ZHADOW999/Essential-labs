@@ -3,6 +3,21 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Privacy Policy | Essential Laboratory Inc",
   description: "Read our privacy policy to understand how we collect, use, and protect your personal information.",
+  openGraph: {
+    title: "Privacy Policy | Essential Laboratory Inc",
+    description: "Read our privacy policy to understand how we collect, use, and protect your personal information.",
+    type: "website",
+    url: "https://www.essentiallabinc.com/privacy-policy",
+    siteName: "Essential Laboratory Inc",
+    images:[
+      {
+        url: "https://www.essentiallabinc.com/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Essential Laboratory Inc."
+      }
+    ]
+  }
 }
 
 export default function PrivacyPolicyPage() {

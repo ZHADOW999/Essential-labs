@@ -3,6 +3,23 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Shipping Information | Essential Laboratory Inc",
   description: "Learn about our shipping policies and international shipping options.",
+  keywords: "Essential Labs, Shipping, International Shipping, Delivery",
+  openGraph: {
+    title: "Shipping Information | Essential Laboratory Inc",
+    description: "Learn about our shipping policies and international shipping options.",
+    type: "website",
+    url: "https://essentiallabinc.com/shipping",
+    siteName: "Essential Laboratory Inc",
+    images: [
+      {
+        url: "https://www.essentiallabinc.com/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Essential Laboratory Inc"
+      }
+    ]
+  }
+
 }
 
 export default function ShippingPage() {
