@@ -25,6 +25,7 @@ export default function Home() {
             width={0}
             height={0}
             sizes="100vw"
+            priority={true}
           />
         </div>
       </section>
