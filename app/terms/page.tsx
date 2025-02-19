@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://essentiallabinc.com/terms",
     siteName: "Essential Laboratory Inc",
-    images:[
+    images:[  
       {
         url: "https://www.essentiallabinc.com/images/og-image.png",
         width: 1200,
